@@ -94,7 +94,7 @@ const n7 = document.getElementById('n7');
 btn7.addEventListener('click', function onClick() {
     btn7.classList.add('active');
     let text = prompt('Please enter some text:');
-    n7.innerHTML += " " + text;
+    n7.innerHTML = " " + text;
 });
 
 // TASK 8
